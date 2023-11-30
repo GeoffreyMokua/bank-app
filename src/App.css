@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.nav-item:hover {
+  background-color: rgb(37, 150, 190);
+}
+
+.navbar-brand:hover {
+  background-color: rgb(37, 150, 190);
+}
+
+.container-fluid {
+  font-family: "Cormorant", serif;
+  font-size: larger;
+  background-image: linear-gradient(
+    to left,
+    rgba(235, 163, 63, 0.503),
+    rgba(250, 124, 124, 0.2)
+  );
+  padding: 3px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+
+  padding: 1%;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-image: url(/public//images/header1.jpg);
+  background-size: cover;
+  background-position: 0% 15%;
+  padding: 8%;
+}
+
+.card-header {
+  background-image: linear-gradient(
+    to left,
+    rgba(234, 124, 218, 0.4),
+    rgba(234, 124, 218, 0.6)
+  );
+  border-color: black !important;
+}
+
+.card-body {
+  border-color: black !important;
+  background-image: linear-gradient(
+    to left,
+    rgba(234, 124, 218, 0.4),
+    rgba(234, 124, 218, 0.6)
+  );
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  font-family: "Cormorant", serif;
+  font-size: x-large;
+}
+
+.card-header {
+  font-family: "Cormorant", serif;
+  font-size: x-large;
+}
+
+body {
+  font-family: "Cormorant", serif !important;
+  background-image: linear-gradient(
+    to left,
+    rgba(235, 163, 63, 0.7),
+    rgba(250, 124, 124, 0.281)
+  );
+}
+
+.hr {
+  margin-top: 0;
+}
+
+.card {
+  border-color: black !important;
+}
